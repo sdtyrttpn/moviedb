@@ -118,7 +118,7 @@ function Movie(props) {
         className="border-4 rounded-md hover:border-yellow-400 transition cursor-pointer relative"
         id="card__img"
       >
-        <img className="w-full rounded" src={"/img/" + props.movieObj.image} />
+        <img className="w-full rounded" src={"img/" + props.movieObj.image} />
         <div
           id="card__info"
           className="font-bold text-center w-full text-xl md:text-2xl  p-4 md:p-6 lg:p-8 absolute transition duration-300 inset-0 flex flex-col items-center justify-between opacity-0 z-10"
